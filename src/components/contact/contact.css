@@ -1,0 +1,97 @@
+.c {
+    margin-top: 10rem;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+    border-radius: 0px 30px 30px 0;
+  }
+  
+  .c-wrapper {
+    padding: 50px;
+    display: flex;
+  }
+  
+    /* Left Part */
+
+  .c-left {
+    flex: 1;
+  }
+
+  .c-title {
+    font-size: 60px;
+    width: 70%;
+  }
+  
+  .c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+  }
+  
+  .c-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  /* Right Part */
+
+  .c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .c-desc {
+    font-weight: 400;
+    font-size: x-large;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+ 
+  input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(199, 231, 241);
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  textarea{
+      width: 100%;
+      margin: 10px 0px;
+      font-size: 14px;
+      padding-left: 10px;
+      background-color: rgb(199, 231, 241);
+  }
+
+  button{
+      border: none;
+      border-radius: 5px;
+      padding: 10px 25px;
+      background-color: #59b256;
+      color: white;
+      font-weight: 500;
+      font-size: medium;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+  }
+
+  button:hover{
+    background-color: #428340;
+  }
